@@ -39,7 +39,7 @@ public class Filas {
 
         Integer elemento = fila[primeiro];
         fila[primeiro] = null;
-        primeiro = (ultimo + primeiro)%tamanho;
+        primeiro = (primeiro + 1)%tamanho;
 
         return elemento;
     }

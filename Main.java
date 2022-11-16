@@ -10,7 +10,11 @@ public class Main {
         // System.out.println(fila.isEmpty());
 
         System.out.println(fila.dequeue());
+        System.out.println(fila.dequeue());
+        System.out.println(fila.dequeue());
         // System.out.println(fila.dequeue());
-        System.out.println(fila.size());
+        /* System.out.println(fila.size()); */
+
+        System.out.println(fila.isEmpty());
     }
 }
